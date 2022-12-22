@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #E18D7B;
 }
 
 .App-logo {
@@ -14,14 +15,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-body {
+  text-align: center;
+  background-color: #E18D7B;
+}
+
+.App-navigation {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.Tab-button {
+  font-size: 1.75rem !important;
 }
 
 .App-link {
@@ -35,4 +50,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.slogan {
+  font-style: italic;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.summary {
+  margin-left: 18% !important;
+  margin-right: 18% !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.cards {
+  display: flex;   
+  flex-wrap: wrap;
+  grid-gap: 1.5rem;   
+  padding-left: 12%;
+  padding-right: 12%;
+  justify-content: center;
+}
+
+.infocard {
+  background-color: transparent;
+  width: 500px;  
+  height: 475px; 
+  padding: 2rem;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.infocard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.infocard-card:hover .infocard-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.infocard-front, .infocard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #C98F70;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.infocard-front {
+  background-color: #C98F70;
+  color: black;
+  /* padding: 2rem;
+  
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  overflow: hidden; */
+}
+
+/* Style the back side */
+.infocard-back {
+  background-color: #C98F70;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.stepcard {
+  width: 500px;  
+  height: 475px; 
+  background-color: #E18D7B !important
 }
