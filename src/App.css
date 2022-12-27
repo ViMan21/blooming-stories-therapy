@@ -1,6 +1,9 @@
+body {
+  background-color: #ACBD9D;
+}
+
 .App {
   text-align: center;
-  background-color: #E18D7B;
 }
 
 .App-logo {
@@ -15,21 +18,22 @@
 }
 
 .App-header {
+  color: white;
   min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-body {
   text-align: center;
-  background-color: #E18D7B;
+  margin-bottom: 5rem;
 }
 
 .App-navigation {
+  margin-top: 1.5rem;
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -41,6 +45,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.logo {
+  height: 400px;
+  width: 400px;
 }
 
 @keyframes App-logo-spin {
@@ -68,9 +77,9 @@
 .cards {
   display: flex;   
   flex-wrap: wrap;
-  grid-gap: 1.5rem;   
-  padding-left: 12%;
-  padding-right: 12%;
+  grid-gap: 1rem;   
+  padding-left: 6%;
+  padding-right: 6%;
   justify-content: center;
 }
 
@@ -78,8 +87,7 @@
   background-color: transparent;
   width: 500px;  
   height: 475px; 
-  padding: 2rem;
-  border: 1px solid #f1f1f1;
+  padding: 1rem;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -95,7 +103,7 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.infocard-card:hover .infocard-inner {
+.infocard:hover .infocard-inner {
   transform: rotateY(180deg);
 }
 
@@ -104,32 +112,60 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #C98F70;
+  background-color: #9D9D86;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
 .infocard-front {
-  background-color: #C98F70;
-  color: black;
-  /* padding: 2rem;
-  
-  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
-  overflow: hidden; */
+  color: white;
 }
 
 /* Style the back side */
 .infocard-back {
-  background-color: #C98F70;
+  display: flex;
   color: white;
+  text-align: center;
+  vertical-align: middle;
   transform: rotateY(180deg);
+  align-items:center;
+}
+
+.image-card {
+  position: fixed;
+  bottom: 3rem;
+  left: 87px;
+  width: 325px;  
+  height: 300px; 
+}
+
+.back-description {
+  align-items:center;
 }
 
 .stepcard {
   width: 500px;  
   height: 475px; 
-  background-color: #E18D7B !important
+}
+
+.image-step {
+  width: 325px;  
+  height: 300px; 
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-booking {
+  font-size: xxx-large;
+}
+
+.accordionCard {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 1rem;
+}
+
+.About-section {
+  display: flex;
 }
