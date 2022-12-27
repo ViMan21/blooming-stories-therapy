@@ -21,9 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy" : "npm run build",
-    "deploy" : "npm start",
-    "build": "npm install -g serve",
-    "serve": "serve -s build",
+    "deploy" : "npm install -g serve",
+    "build": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
