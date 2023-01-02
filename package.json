@@ -1,6 +1,7 @@
 {
   "name": "therapy",
   "version": "0.1.0",
+  "homepage": "https://viman21.github.io/blooming-stories-therapy",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -18,12 +19,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://viman21.github.io/blooming-stories-therapy/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "npm install -g serve",
-    "build": "serve -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
