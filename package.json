@@ -1,8 +1,8 @@
 {
   "name": "therapy",
   "version": "0.1.0",
-  "homepage": "https://viman21.github.io/blooming-stories-therapy",
-  "private": true,
+  "homepage": "https://www.bloomingstoriestherapy.com/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

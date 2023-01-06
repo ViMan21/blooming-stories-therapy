@@ -4,10 +4,7 @@ import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import FaqPage from './pages/faq';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 const theme = createTheme({
   status: {
@@ -37,27 +34,16 @@ const theme = createTheme({
   },
 });
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "/About",
-    element: <AboutPage />,
-  },
-  {
-    path: "/FAQ",
-    element: <FaqPage />,
-  },
-]);
-
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        
-        <RouterProvider router={router} />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/faq" element={<FaqPage />} />
+          <Route path="*" element={<Navigate to={"/"} />} />
+        </Routes>
       </div>
     </ThemeProvider>
   );

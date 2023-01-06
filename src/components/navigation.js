@@ -18,8 +18,8 @@ const Navigation = ()=> {
             indicatorColor="primary.contrastText"
             aria-label="secondary tabs example"
             >
-                <Tab value="Home" label="Home" className="Tab-button" href="/"/>
-                <Tab value="About" label="About" className="Tab-button" href="/About"/>
+                <Tab value="Home" label="Home" className="Tab-button" href="/"></Tab>
+                <Tab value="About" label="About" className="Tab-button" href="/#/about" />
             </Tabs>
             <img className='logo' src={logo} alt="logo" />
             <Tabs
@@ -29,7 +29,7 @@ const Navigation = ()=> {
             indicatorColor="black"
             aria-label="secondary tabs example"
             >
-                <Tab value="FAQ" label="FAQ" className="Tab-button" href="/FAQ"/>
+                <Tab value="FAQ" label="FAQ" className="Tab-button" href="/#/faq" />
                 <Tab value="Booking" label="Book Now" className="Tab-button" href="https://bloomingstoriestherapy.bookafy.com/schedule/?type=iframe&custom_embed=true&selected_staff=shanuja-manoratnam-2592&category_id=quick-call-5ac453&locale=en"/>
             </Tabs>
         </navigation>
