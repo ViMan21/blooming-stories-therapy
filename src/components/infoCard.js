@@ -1,4 +1,5 @@
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import * as React from 'react';
 
 const InfoCard = (value, description, image)=> {
@@ -6,13 +7,17 @@ const InfoCard = (value, description, image)=> {
         <div class="infocard">
             <div class="infocard-inner">
                 <div className='infocard-front'>
-                    <Typography variant="h3" color="primary.contrastText" gutterTop sx={{mt: 2}}>
-                        {value}
-                    </Typography>
-                    <img className='image-card' src={image} alt="icon" />
+                    <Box className='inner-square' sx={{
+                            backgroundColor: 'secondary.main'
+                        }}>
+                        {/* <Typography variant="h3" color="primary.contrastText" gutterTop sx={{mt: 2}}>
+                            {value}
+                        </Typography> */}
+                        <img className='image-card' src={image} alt="icon" />
+                    </Box>
                 </div>
                 <div className='infocard-back'>
-                    <Typography variant="h4" color="primary.contrastText" sx={{m: 2}}>
+                    <Typography variant="body1" color="secondary.main" sx={{m: 2}}>
                         {description}
                     </Typography>
                 </div>

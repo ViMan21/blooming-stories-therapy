@@ -19,17 +19,56 @@ const theme = createTheme({
       light: '#def0ce',
       main: '#acbd9d',
       dark: '#7d8d6f',
-      contrastText: '#fff',
+      contrastText: '#000',
     },
     secondary: {
       light: '#ffd0c2',
-      main: '#dc9f92',
+      main: '#fff',
       dark: '#a97064',
-      contrastText: '#fff',
+      contrastText: '#000',
     },
     neutral: {
       main: '#9D9D86',
-      contrastText: '#fff',
+      contrastText: '#000',
+    },
+  },
+  typography: {
+    subtitle1: {
+      fontSize: 12,
+    },
+    h2: {
+      fontSize: '8vw',
+      '@media (min-width:600px)': {
+        fontSize: '5rem',
+      } 
+    }, 
+    h3: {
+      fontSize: '7vw',
+      '@media (min-width:600px)': {
+        fontSize: '4rem',
+      } 
+    }, 
+    h4: {
+      fontSize: '6vw',
+      '@media (min-width:600px)': {
+        fontSize: '3rem',
+      } 
+    }, 
+    h5: {
+      fontSize: '4vw',
+      fontWeight: 1,
+      '@media (min-width:600px)': {
+        fontSize: '1.5rem',
+      },
+    },
+    body1: {
+      fontSize: '2.5vw',
+      '@media (min-width:800px)': {
+        fontSize: '1.5rem',
+      } 
+    }, 
+    button: {
+      fontStyle: 'italic',
     },
   },
 });

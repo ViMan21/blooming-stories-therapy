@@ -1,5 +1,5 @@
 body {
-  background-color: #ACBD9D;
+  background-color: #D4DECB;
 }
 
 .App {
@@ -7,7 +7,6 @@ body {
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -18,8 +17,12 @@ body {
 }
 
 .App-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   color: white;
-  min-height: 100px;
+  background-color: #ACBD9D;
+  opacity: 0.7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,18 +32,19 @@ body {
 
 .App-body {
   text-align: center;
-  margin-bottom: 5rem;
+  overflow-x: hidden;
 }
 
 .App-navigation {
-  margin-top: 1.5rem;
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
 }
 
 .Tab-button {
   font-size: 1.75rem !important;
+  opacity: 1;
+  color: white;
 }
 
 .App-link {
@@ -48,8 +52,12 @@ body {
 }
 
 .logo {
-  height: 400px;
-  width: 400px;
+  padding-top: 5%;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  max-height: 300px;
+  max-width: 300px;
+  color: #000;
 }
 
 @keyframes App-logo-spin {
@@ -63,37 +71,49 @@ body {
 
 .slogan {
   font-style: italic;
-  margin-top: 3rem !important;
-  margin-bottom: 1rem !important;
+}
+
+.summary-box {
+  display: grid;  
+  justify-content: center;
+  justify-items: center;
 }
 
 .summary {
-  margin-left: 18% !important;
-  margin-right: 18% !important;
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  max-width: 70%;
 }
 
 .cards {
-  display: flex;   
-  flex-wrap: wrap;
-  grid-gap: 1rem;   
-  padding-left: 6%;
-  padding-right: 6%;
+  display: grid;   
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
   justify-content: center;
+  max-width: 1200px;  
 }
 
 .infocard {
+  position: relative;
   background-color: transparent;
-  width: 400px;  
-  height: 375px; 
-  padding: 1rem;
+  margin: auto;
+  aspect-ratio: 1 / 1;
+  width: 95%;
+  height: 95%;
+  max-width: 400px;  
+  max-height: 375px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.inner-square {
+  margin: auto;
+  width: 75%;  
+  height: 75%;
 }
 
 /* This container is needed to position the front and back side */
 .infocard-inner {
   position: relative;
+  margin: auto;
+  justify-content: center;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -109,10 +129,12 @@ body {
 
 /* Position the front and back side */
 .infocard-front, .infocard-back {
+  display: flex;
   position: absolute;
+  margin: auto;
   width: 100%;
   height: 100%;
-  background-color: #9D9D86;
+  background-color: #ACBD9D ;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -133,11 +155,8 @@ body {
 }
 
 .image-card {
-  position: fixed;
-  bottom: 1rem;
-  left: 87px;
-  width: 225px;  
-  height: 225px; 
+  width: 100%;  
+  height: 100%; 
 }
 
 .back-description {
@@ -145,15 +164,21 @@ body {
 }
 
 .stepcard {
-  width: 500px;  
-  height: 475px; 
+  position: relative;
+  background-color: transparent;
+  margin: auto;
+  aspect-ratio: 1 / 1;
+  width: 95%;
+  max-width: 400px;  
+  max-height: 375px;
 }
 
 .image-step {
-  width: 325px;  
-  height: 300px; 
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  position: inherit;
+  margin: auto;
+  width: 80%;
+  height: 70;
 }
 
 .button-booking {
@@ -167,5 +192,16 @@ body {
 }
 
 .About-section {
-  display: flex;
+  display: inline-block;
+  width: 65%;
+  margin: auto;
+}
+
+.About-image {
+  float: left;
+  padding: 0 20px 20px 0;
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  shape-outside:border-box;
 }

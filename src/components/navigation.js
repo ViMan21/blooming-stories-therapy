@@ -1,38 +1,36 @@
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import * as React from 'react';
-import logo from '../img/logo.png'
 
 const Navigation = ()=> {
-    const [value, setValue] = React.useState('Home');
-
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
-    };
     return(
-        <navigation className="App-navigation">
-            <Tabs
-            value={value}
-            onChange={handleChange}
-            textColor="primary.contrastText"
-            indicatorColor="primary.contrastText"
-            aria-label="secondary tabs example"
-            >
-                <Tab value="Home" label="Home" className="Tab-button" href="/"></Tab>
-                <Tab value="About" label="About" className="Tab-button" href="/#/about" />
-            </Tabs>
-            <img className='logo' src={logo} alt="logo" />
-            <Tabs
-            value={value}
-            onChange={handleChange}
-            textColor="primary.contrastText"
-            indicatorColor="black"
-            aria-label="secondary tabs example"
-            >
-                <Tab value="FAQ" label="FAQ" className="Tab-button" href="/#/faq" />
-                <Tab value="Booking" label="Book Now" className="Tab-button" href="https://bloomingstoriestherapy.bookafy.com/schedule/?type=iframe&custom_embed=true&selected_staff=shanuja-manoratnam-2592&category_id=quick-call-5ac453&locale=en"/>
-            </Tabs>
+        <navigation >
+            <AppBar position="fixed">
+                <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+                        <Button variant="text" color="secondary" href="/">Home</Button>
+                        <Button variant="text" color="secondary" href="/#/about">About</Button>
+                        <Button variant="text" color="secondary" href="/#/faq">FAQ</Button>
+                        <Button variant="text" color="secondary" href="https://bloomingstoriestherapy.bookafy.com/">Book Now</Button>
+                </Box>
+            </AppBar>
         </navigation>
 )};
+
+// const AppBar = styled(MuiAppBar, {
+//     shouldForwardProp: (prop) => prop !== 'open',
+//   })(({ theme, open }) => ({
+//     transition: theme.transitions.create(['margin', 'width'], {
+//       easing: theme.transitions.easing.sharp,
+//       duration: theme.transitions.duration.leavingScreen,
+//     }),
+//     ...(open && {
+//       width: `calc(100% - ${drawerWidth}px)`,
+//       marginLeft: `${drawerWidth}px`, 
+//         easing: theme.transitions.easing.easeOut,
+//         duration: theme.transitions.duration.enteringScreen,
+//       }),
+//     }),
+//   }));
 
 export default Navigation;

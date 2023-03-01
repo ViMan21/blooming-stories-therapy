@@ -2,7 +2,7 @@
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 import Navigation from '../components/navigation';
-import About from '../img/About.jpg';
+import About from '../img/About.png';
 
 const AboutPage = ()=> {
     return(
@@ -15,8 +15,8 @@ const AboutPage = ()=> {
                     About 
                 </Typography>
                 <div className="About-section">
-                    <img src={About} alt="icon" />
-                    <Typography variant="h5" color="primary.contrastText" sx={{ pt:3, pb:10,  px:40 }}>
+                    <img src={About} className="About-image" alt="icon" />
+                    <Typography variant="h5" color="primary.contrastText" align="left" sx={{pb:10}}>
                     I am a second-generation Tamil-Canadian. Growing up, as I faced my own challenges with mental health, I would never see resources from other second-generation South Asians. I felt that I could never get professional help from someone who would truly understand where I was coming from. This pushed me to pursue my undergraduate degree in psychology and master’s degree in counseling psychology. As a Registered Psychotherapist (Qualifying) I aim to work from a culturally sensitive, integrative approach with clients to allow them to be seen, heard, and understood.
     
                     Mostly, I work with young adults, who are children of immigrants, as they navigate between multiple cultures and their mental health concerns such as anxiety, depression, and stress. However, I also have experience working with life transitions, relationship issues, stress, trauma, self-esteem, autism, and ADHD.
