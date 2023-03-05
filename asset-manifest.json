@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cc39d3e.css",
-    "main.js": "/static/js/main.b6ef9143.js",
+    "main.css": "/static/css/main.b21bb3d8.css",
+    "main.js": "/static/js/main.fc4670ca.js",
     "static/js/787.c9b13b0e.chunk.js": "/static/js/787.c9b13b0e.chunk.js",
     "static/media/About.png": "/static/media/About.a2df6cd31b881ccc0788.png",
-    "static/media/Demo_ConeriaScript.ttf": "/static/media/Demo_ConeriaScript.decf5eb33e3e25df6bef.ttf",
-    "static/media/ChampagneLimousines.ttf": "/static/media/ChampagneLimousines.f382009264b83cfd9b82.ttf",
+    "static/media/Kurale-Regular.ttf": "/static/media/Kurale-Regular.897db4787eb3562d548b.ttf",
+    "static/media/TenorSans-Regular.ttf": "/static/media/TenorSans-Regular.bca3021627f0fc4f1ace.ttf",
+    "static/media/Madina.ttf": "/static/media/Madina.04440355b3faf2ea675f.ttf",
+    "static/media/Champagne & Limousines Bold.ttf": "/static/media/Champagne & Limousines Bold.66d8db5dfc5a8478bffb.ttf",
     "static/media/anxiety.png": "/static/media/anxiety.90fc47c45a1b114ffbe4.png",
     "static/media/logo.png": "/static/media/logo.d35ecb49691eb7c62622.png",
-    "static/media/IR.png": "/static/media/IR.c4fae125e622dce355e7.png",
-    "static/media/SE.png": "/static/media/SE.36476362618bf28c21a5.png",
+    "static/media/IR.png": "/static/media/IR.70f6ebe3e3821fbf2264.png",
+    "static/media/SE.png": "/static/media/SE.44f2ea5352cb90bcde2b.png",
+    "static/media/depression.png": "/static/media/depression.a2ca7a7d2643b6dd1ac0.png",
     "static/media/IT.png": "/static/media/IT.8753c72390caa702cdc9.png",
     "static/media/step1.png": "/static/media/step1.6432b0db513ad435b607.png",
     "static/media/step2.png": "/static/media/step2.c50c327a6c17a13708c4.png",
     "static/media/step3.png": "/static/media/step3.c64b4ffc16d94b914f96.png",
-    "static/media/depression.png": "/static/media/depression.9f4c9971e36ab411b3bd.png",
     "index.html": "/index.html",
-    "main.0cc39d3e.css.map": "/static/css/main.0cc39d3e.css.map",
-    "main.b6ef9143.js.map": "/static/js/main.b6ef9143.js.map",
+    "main.b21bb3d8.css.map": "/static/css/main.b21bb3d8.css.map",
+    "main.fc4670ca.js.map": "/static/js/main.fc4670ca.js.map",
     "787.c9b13b0e.chunk.js.map": "/static/js/787.c9b13b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cc39d3e.css",
-    "static/js/main.b6ef9143.js"
+    "static/css/main.b21bb3d8.css",
+    "static/js/main.fc4670ca.js"
   ]
 }
