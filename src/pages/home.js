@@ -37,9 +37,9 @@ const HomePage = ()=> {
                 <Box className='summary-box' 
                     sx={{
                         backgroundColor: 'primary.main',
-                        p: '1rem'
+                        p: '5vw'
                     }}>
-                    <Typography className="summary" variant="h5" color="secondary.main">
+                    <Typography className="summary" variant="h4" color="secondary.main">
                         Do you feel stuck? You may feel overwhelmed and confused about what’s going on right now. But the one thing you know is that you want this to change. You want to understand yourself better and get back on track for the life that you deserve. In therapy, you will be able to explore your past, work on the present, and allow your story to bloom for the future.
                     </Typography>
                 </Box>
@@ -65,7 +65,7 @@ const HomePage = ()=> {
                         Process of Therapy
                     </Typography>
 
-                    <Typography className="summary" variant="h5" color="secondary.main" sx={{my: 3}}>
+                    <Typography className="summary" variant="h4" color="secondary.main" sx={{my: 3, px: 10}}>
                         We are all trying our best but changes, mistakes, and unexpected hardships can be difficult to navigate on our own. Blooming Stories Therapy aims to meet you where you are when it comes to your life and concerns. It can be daunting to even acknowledge our own challenges, so I’m glad that you are starting to take the first step into creating some meaningful change in your life by seeking therapy.
                     </Typography>
 

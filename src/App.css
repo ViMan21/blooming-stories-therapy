@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'kurale';
+  src: local('Kurale-Regular'), url(./fonts/Kurale-Regular.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'champagneLimo';
+  src: local('ChampagneLimousines'), url(./fonts/Champagne\ &\ Limousines\ Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'madina';
+  src: local('Madina'), url(./fonts/Madina.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'tenor';
+  src: local('TenorSans-Regular'), url(./fonts/TenorSans-Regular.ttf) format("truetype");
+}
+
 body {
   background-color: #D4DECB;
 }
@@ -41,6 +63,55 @@ body {
   grid-auto-flow: row;
 }
 
+.App-footer {
+  background-color: #ACBD9D;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.footer-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  align-content: center;
+  margin-left: 5%;
+}
+
+.footer-company {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+.footer-logo {
+  width: 40%;
+  max-width: 200px;
+  min-width: 80px;
+  height: auto;
+  /* filter: brightness(0.4); */
+}
+
+.footer-virtual{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: end;
+  align-content: center;
+  margin-right: 5%;
+}
+
+.footer-copyright{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.footer-link{
+  display: flex;
+  font-size: small;
+  margin-top: 10px;
+}
+
 .Tab-button {
   font-size: 1.75rem !important;
   opacity: 1;
@@ -53,11 +124,10 @@ body {
 
 .logo {
   padding-top: 5%;
-  width: 50%;
+  width: 25%;
   aspect-ratio: 1 / 1;
-  max-height: 300px;
-  max-width: 300px;
-  color: #000;
+  max-width: 150px;
+  filter: brightness(0.4);
 }
 
 @keyframes App-logo-spin {
@@ -77,10 +147,13 @@ body {
   display: grid;  
   justify-content: center;
   justify-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 7%;
 }
 
 .summary {
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .cards {
@@ -179,6 +252,7 @@ body {
   margin: auto;
   width: 80%;
   height: 70;
+  max-width: 150px0;
 }
 
 .button-booking {
@@ -204,4 +278,9 @@ body {
   height: 500px;
   border-radius: 50%;
   shape-outside:border-box;
+}
+
+.center {
+  vertical-align: middle;
+  margin: auto;
 }

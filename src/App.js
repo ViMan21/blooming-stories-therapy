@@ -36,40 +36,63 @@ const theme = createTheme({
     subtitle1: {
       fontSize: 12,
     },
+    h1: {
+      fontFamily: 'kurale',
+      fontSize: '9vw',
+      '@media (min-width:600px)': {
+        fontSize: '6rem',
+      } 
+    }, 
     h2: {
+      fontFamily: 'kurale',
       fontSize: '8vw',
       '@media (min-width:600px)': {
         fontSize: '5rem',
       } 
     }, 
     h3: {
-      fontSize: '7vw',
+      fontFamily: 'tenor',
+      fontSize: '6vw',
       '@media (min-width:600px)': {
-        fontSize: '4rem',
+        fontSize: '3.5rem',
       } 
     }, 
     h4: {
-      fontSize: '6vw',
+      fontFamily: 'champagneLimo',
+      fontSize: '5vw',
       '@media (min-width:600px)': {
-        fontSize: '3rem',
+        fontSize: '2rem',
       } 
     }, 
     h5: {
+      fontFamily: 'champagneLimo',
       fontSize: '4vw',
-      fontWeight: 1,
+      // fontWeight: 'bold',
       '@media (min-width:600px)': {
         fontSize: '1.5rem',
       },
     },
     body1: {
+      fontFamily: 'champagneLimo',
       fontSize: '2.5vw',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',
       } 
+    },
+    body2: {
+      fontFamily: 'champagneLimo',
+      fontSize: '1.75vw',
+      '@media (min-width:800px)': {
+        fontSize: '1rem',
+      } 
     }, 
     button: {
-      fontStyle: 'italic',
-    },
+      fontFamily: 'champagneLimo',
+      fontSize: '2.5vw',
+      '@media (min-width:800px)': {
+        fontSize: '1.5rem',
+      } 
+    }
   },
 });
 
