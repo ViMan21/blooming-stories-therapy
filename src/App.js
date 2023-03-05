@@ -13,7 +13,7 @@ const theme = createTheme({
   palette: {
     background: {
       default: '#ACBD9D',
-      paper: '#9D9D86',
+      paper: '#ACBD9D',
     },
     primary: {
       light: '#def0ce',
@@ -58,14 +58,14 @@ const theme = createTheme({
       } 
     }, 
     h4: {
-      fontFamily: 'champagneLimo',
+      fontFamily: 'quicksand',
       fontSize: '5vw',
       '@media (min-width:600px)': {
         fontSize: '2rem',
       } 
     }, 
     h5: {
-      fontFamily: 'champagneLimo',
+      fontFamily: 'quicksand',
       fontSize: '4vw',
       // fontWeight: 'bold',
       '@media (min-width:600px)': {
@@ -73,21 +73,21 @@ const theme = createTheme({
       },
     },
     body1: {
-      fontFamily: 'champagneLimo',
+      fontFamily: 'quicksand',
       fontSize: '2.5vw',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',
       } 
     },
     body2: {
-      fontFamily: 'champagneLimo',
+      fontFamily: 'quicksand',
       fontSize: '1.75vw',
       '@media (min-width:800px)': {
         fontSize: '1rem',
       } 
     }, 
     button: {
-      fontFamily: 'champagneLimo',
+      fontFamily: 'quicksand',
       fontSize: '2.5vw',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',

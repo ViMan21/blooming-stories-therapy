@@ -18,6 +18,7 @@ import SE from '../img/SE.png';
 import Transitions from '../img/transitions.png';
 import Anxiety from '../img/anxiety.png';
 import logo from '../img/logo.png'
+import homeImage from '../img/homeImage.jpg';
 
 const HomePage = ()=> {
     return(
@@ -34,6 +35,7 @@ const HomePage = ()=> {
                 <Typography className="slogan" variant="h4" color="primary.contrastText"  sx={{my: 3}}>
                     Blooming into a Better You    
                 </Typography>
+                <img className='home-image' src={homeImage} alt="homeImage" />
                 <Box className='summary-box' 
                     sx={{
                         backgroundColor: 'primary.main',
