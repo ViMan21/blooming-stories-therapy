@@ -58,14 +58,14 @@ const HomePage = ()=> {
                 <Box className='summary-box' 
                     sx={{
                         backgroundColor: 'primary.main',
-                        p: '1rem',
+                        p: '5vw',
                         my: 5
                     }}>
                     <Typography className="slogan" variant="h3" color="secondary.main" sx={{my: 3}}>
                         Process of Therapy
                     </Typography>
 
-                    <Typography className="summary" variant="h4" color="secondary.main" sx={{my: 3, px: 10}}>
+                    <Typography className="summary" variant="h4" color="secondary.main" sx={{my: 3 }}>
                         We are all trying our best but changes, mistakes, and unexpected hardships can be difficult to navigate on our own. Blooming Stories Therapy aims to meet you where you are when it comes to your life and concerns. It can be daunting to even acknowledge our own challenges, so I’m glad that you are starting to take the first step into creating some meaningful change in your life by seeking therapy.
                     </Typography>
 
