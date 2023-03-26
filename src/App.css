@@ -53,6 +53,7 @@ body {
 }
 
 .App-body {
+  margin-top: 5vw;
   text-align: center;
   overflow-x: hidden;
 }
@@ -123,7 +124,6 @@ body {
 }
 
 .logo {
-  padding-top: 5%;
   width: 25%;
   aspect-ratio: 1 / 1;
   max-width: 150px;
@@ -140,6 +140,8 @@ body {
 }
 
 .slogan {
+  margin-top: 1vw !important;
+  margin-bottom: 3vw !important;
 }
 
 .summary-box {
@@ -281,8 +283,9 @@ body {
 .About-image {
   float: left;
   padding: 0 20px 20px 0;
-  width: 300px;
-  height: 500px;
+  aspect-ratio: 3/5;
+  width: 40%;
+  height: auto;
   border-radius: 50%;
   shape-outside:border-box;
 }
