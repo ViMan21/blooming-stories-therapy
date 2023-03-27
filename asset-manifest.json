@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.05dcbb0d.css",
-    "main.js": "/static/js/main.04ce6c6f.js",
+    "main.css": "/static/css/main.5b076059.css",
+    "main.js": "/static/js/main.f3c51cc4.js",
     "static/js/787.c9b13b0e.chunk.js": "/static/js/787.c9b13b0e.chunk.js",
-    "static/media/About.png": "/static/media/About.a2df6cd31b881ccc0788.png",
+    "static/media/about.jpg": "/static/media/about.897d905371f28b776364.jpg",
     "static/media/homeImage.jpg": "/static/media/homeImage.751bd55061531b1270b9.jpg",
     "static/media/Kurale-Regular.ttf": "/static/media/Kurale-Regular.897db4787eb3562d548b.ttf",
     "static/media/TenorSans-Regular.ttf": "/static/media/TenorSans-Regular.bca3021627f0fc4f1ace.ttf",
@@ -20,12 +20,12 @@
     "static/media/step2.png": "/static/media/step2.c50c327a6c17a13708c4.png",
     "static/media/step3.png": "/static/media/step3.c64b4ffc16d94b914f96.png",
     "index.html": "/index.html",
-    "main.05dcbb0d.css.map": "/static/css/main.05dcbb0d.css.map",
-    "main.04ce6c6f.js.map": "/static/js/main.04ce6c6f.js.map",
+    "main.5b076059.css.map": "/static/css/main.5b076059.css.map",
+    "main.f3c51cc4.js.map": "/static/js/main.f3c51cc4.js.map",
     "787.c9b13b0e.chunk.js.map": "/static/js/787.c9b13b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05dcbb0d.css",
-    "static/js/main.04ce6c6f.js"
+    "static/css/main.5b076059.css",
+    "static/js/main.f3c51cc4.js"
   ]
 }
