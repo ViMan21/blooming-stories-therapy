@@ -71,7 +71,7 @@ const HomePage = ()=> {
                         We are all trying our best but changes, mistakes, and unexpected hardships can be difficult to navigate on our own. Blooming Stories Therapy aims to meet you where you are when it comes to your life and concerns. It can be daunting to even acknowledge our own challenges, so I’m glad that you are starting to take the first step into creating some meaningful change in your life by seeking therapy.
                     </Typography>
 
-                    <cards className="cards">
+                    <cards className="step-cards">
                         {StepCard(1, 'Book a Consultation', step1)}
                         {StepCard(2, 'Attend Sessions', step2)}
                         {StepCard(3, 'Start Growing!', step3)}

@@ -172,6 +172,20 @@ body {
   max-width: 1200px;  
 }
 
+.step-cards {
+  display: grid;   
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  justify-content: center;
+  max-width: 1200px;  
+}
+
+@media only screen and (max-width: 600px) {
+  .cards { 
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 
+
 .infocard {
   position: relative;
   background-color: transparent;
