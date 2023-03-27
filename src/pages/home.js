@@ -29,11 +29,11 @@ const HomePage = ()=> {
             <body className="App-body">
                 
                 <img className='logo' src={logo} alt="logo" />
-                <Typography className="slogan" variant="h2" color="primary.contrastText">
+                <Typography className="slogan" variant="h1" color="primary.contrastText">
                     Blooming Stories Therapy  
                 </Typography>
-                <Typography className="slogan" variant="h4" color="primary.contrastText"  sx={{my: 3}}>
-                    Blooming into a Better You    
+                <Typography className="slogan" variant="h3" color="primary.contrastText"  sx={{my: 3}}>
+                    Bloom into a Better You    
                 </Typography>
                 <img className='home-image' src={homeImage} alt="homeImage" />
                 <Box className='summary-box' 
@@ -45,16 +45,16 @@ const HomePage = ()=> {
                         Do you feel stuck? You may feel overwhelmed and confused about what’s going on right now. But the one thing you know is that you want this to change. You want to understand yourself better and get back on track for the life that you deserve. In therapy, you will be able to explore your past, work on the present, and allow your story to bloom for the future.
                     </Typography>
                 </Box>
-                <Typography className="slogan" variant="h3" color="primary.contrastText" sx={{my: 3}}>
+                <Typography className="slogan" variant="h2" color="primary.contrastText" sx={{my: 3}}>
                     Areas of Focus    
                 </Typography>
                 <cards className="cards">
-                    {InfoCard('Intergenerational Trauma', 'Trauma passed down from previous generations (that can appear in your life as symptoms of anxiety, depression, and stress)', IT)}
-                    {InfoCard('Anxiety', 'Feelings of nervousness, panic, fear, and overthinking', Anxiety)}
-                    {InfoCard('Depression', 'Feeling helpless, irritable, having negative thoughts, and losing interest in pleasurable activities', Depression)}
-                    {InfoCard('Life Transitions', 'Changes that may impact your life in a significant way', Transitions)}
-                    {InfoCard('Interpersonal Relationships', 'Dynamics between family members, friends, and significant others', IR)}
-                    {InfoCard('Self-Esteem', 'Your opinions and beliefs about yourself', SE)}
+                    {InfoCard('Intergenerational Trauma', 'Trauma passed down from previous generations. This may appear in your life as symptoms of anxiety, depression, and stress.)', IT)}
+                    {InfoCard('Anxiety', ' Feelings of nervousness, panic, fear, and overthinking, when there is no real threat/concern.', Anxiety)}
+                    {InfoCard('Depression', 'Constantly feeling helpless, irritable, having negative thoughts, and losing interest in pleasurable activities.', Depression)}
+                    {InfoCard('Life Transitions', 'Normal changes that may impact your life in a significant way. These changes can result in feelings of confusion, overwhelmedness, and stress.', Transitions)}
+                    {InfoCard('Interpersonal Relationships', 'Dynamics between family members, friends, and significant others. Interpersonal problems include lack of trust, unhealthy boundaries, and ineffective communication. ', IR)}
+                    {InfoCard('Self-Esteem', 'Your opinions and beliefs about yourself. Signs of low self-esteem include being overly critical about yourself, focusing on your faults, and thinking you are not enough.', SE)}
                 </cards>
 
                 <Box className='summary-box' 
@@ -63,7 +63,7 @@ const HomePage = ()=> {
                         p: '5vw',
                         my: 5
                     }}>
-                    <Typography className="slogan" variant="h3" color="secondary.main" sx={{my: 3}}>
+                    <Typography className="slogan" variant="h2" color="secondary.main" sx={{my: 3}}>
                         Process of Therapy
                     </Typography>
 
@@ -88,8 +88,8 @@ const HomePage = ()=> {
                     >
                     Book a Free Consultation Now!
                 </LoadingButton>
-                {Footer()}
             </body>
+            {Footer()}
         </>
 )};
 

@@ -14,10 +14,10 @@ const AccordionCard = (question, description)=> {
                 expandIcon={<ExpandMoreIcon />}
                 id={nanoid()}
                 >
-                    <Typography  variant="h4" color="primary.contrastText" >{question}</Typography>
+                    <Typography  variant="h3" color="secondary.main" >{question}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography variant="h5" align='left' color="primary.contrastText">
+                    <Typography variant="h5" align='left' color="secondary.main">
                         {description}
                     </Typography>
                 </AccordionDetails>

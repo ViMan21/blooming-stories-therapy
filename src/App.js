@@ -38,24 +38,24 @@ const theme = createTheme({
     },
     h1: {
       fontFamily: 'kurale',
-      fontSize: '9vw',
-      '@media (min-width:600px)': {
-        fontSize: '6rem',
-      } 
-    }, 
-    h2: {
-      fontFamily: 'kurale',
       fontSize: '8vw',
       '@media (min-width:600px)': {
         fontSize: '5rem',
       } 
     }, 
+    h2: {
+        fontFamily: 'tenor',
+        fontSize: '6vw',
+        '@media (min-width:600px)': {
+          fontSize: '3.5rem',
+        } 
+    }, 
     h3: {
       fontFamily: 'tenor',
-      fontSize: '6vw',
+      fontSize: '5vw',
       '@media (min-width:600px)': {
-        fontSize: '3.5rem',
-      } 
+        fontSize: '2rem',
+      }
     }, 
     h4: {
       fontFamily: 'quicksand',
@@ -74,9 +74,9 @@ const theme = createTheme({
     },
     body1: {
       fontFamily: 'quicksand',
-      fontSize: '2.5vw',
+      fontSize: '0.75rem',
       '@media (min-width:800px)': {
-        fontSize: '1.5rem',
+        fontSize: '1.25rem',
       } 
     },
     body2: {

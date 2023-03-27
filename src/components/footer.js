@@ -20,7 +20,7 @@ const Footer = ()=> {
                 <img className='footer-logo' src={logo} alt="logo" />
             </company>
             <virtual className="footer-virtual">
-                <Typography variant='h2' className='center' color="secondary.main">
+                <Typography variant='h1' className='center' color="secondary.main">
                     <ImportantDevicesIcon  color="secondary.main" fontSize='inherit'/>
                 </Typography>
                 <Typography  variant="body2"  color="secondary.main">

@@ -10,9 +10,6 @@ const InfoCard = (value, description, image)=> {
                     <Box className='inner-square' sx={{
                             backgroundColor: 'secondary.main'
                         }}>
-                        {/* <Typography variant="h3" color="primary.contrastText" gutterTop sx={{mt: 2}}>
-                            {value}
-                        </Typography> */}
                         <img className='image-card' src={image} alt="icon" />
                     </Box>
                 </div>
