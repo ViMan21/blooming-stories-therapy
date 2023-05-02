@@ -79,14 +79,15 @@ const HomePage = ()=> {
                 </Box>
                 <LoadingButton
                     size="large"
-                    color="secondary"
-                    href="https://bloomingstoriestherapy.bookafy.com/schedule/?type=iframe&custom_embed=true&selected_staff=shanuja-manoratnam-2592&category_id=quick-call-5ac453&locale=en"
+                    color='secondary'
+                    href="https://bloomingstoriestherapy.bookafy.com/"
+                    target="_blank"
                     loadingPosition="start"
                     startIcon={<EventAvailableIcon />}
-                    variant="contained"
+                    variant='contained'
                     sx={{ my: 5}}
                     >
-                    Book a Free Consultation Now!
+                    Book a Free Consultation
                 </LoadingButton>
             </body>
             {Footer()}

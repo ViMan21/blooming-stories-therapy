@@ -12,11 +12,11 @@ const Footer = ()=> {
     return(
         <footer className="App-footer">
             <contact className="footer-contact">
-                <Typography variant="body1"  color="secondary.main">Get in Touch!</Typography>
-                {footerLink('info@bloomingstoriestherapy.com', 'mailto:info@bloomingstoriestherapy.com', <EmailOutlinedIcon  color="secondary"/>)}
-                {footerLink('(289) 278-8792', 'tel:+12892788792', <LocalPhoneIcon  color="secondary"/>)}
-                {footerLink('Book a Free Consultation', 'https://bloomingstoriestherapy.bookafy.com/', <CalendarMonthIcon  color="secondary"/>)}
-                {footerLink('@BloomingStoriesTherapy', 'https://www.instagram.com/bloomingstoriestherapy/', <InstagramIcon color="secondary"/>)}
+                <Typography variant="body2"  color="secondary.main">Get in Touch!</Typography>
+                {footerLink('info@bloomingstoriestherapy.com', 'mailto:info@bloomingstoriestherapy.com', <EmailOutlinedIcon  color="secondary" fontSize='inherit'/>)}
+                {footerLink('(289) 278-8792', 'tel:+12892788792', <LocalPhoneIcon  color="secondary" fontSize='inherit'/>)}
+                {footerLink('Book a Free Consultation', 'https://bloomingstoriestherapy.bookafy.com/', <CalendarMonthIcon  color="secondary" fontSize='inherit'/>)}
+                {footerLink('@BloomingStoriesTherapy', 'https://www.instagram.com/bloomingstoriestherapy/', <InstagramIcon color="secondary" fontSize='inherit'/>)}
             </contact>
             <company className="footer-company">
                 <img className='footer-logo' src={logo} alt="logo" />

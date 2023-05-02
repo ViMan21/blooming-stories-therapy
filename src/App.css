@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'kurale';
-  src: local('Kurale-Regular'), url(./fonts/Kurale-Regular.ttf) format("truetype");
+  font-family: 'stroke';
+  src: local('Distant_Stroke'), url(./fonts/Distant_Stroke.otf) format("opentype");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
 
 @font-face {
-  font-family: 'quicksand';
-  src: local('Quicksand-Regular'), url(./fonts/Quicksand-Regular.ttf) format("truetype");
+  font-family: 'Cormorant';
+  src: local('CormorantGaramond-Regular'), url(./fonts/CormorantGaramond-Regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -109,9 +109,12 @@ body {
 
 .footer-link{
   display: flex;
-  font-size: small;
-  margin-top: 10px;
   column-gap: 10px;
+}
+
+
+@media screen and (max-width: 800px)  {
+
 }
 
 .Tab-button {
@@ -179,7 +182,7 @@ body {
   max-width: 1200px;  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .cards { 
     grid-template-columns: repeat(2, 1fr);
   }

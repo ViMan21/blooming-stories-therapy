@@ -24,7 +24,7 @@ const theme = createTheme({
     secondary: {
       light: '#ffd0c2',
       main: '#fff',
-      dark: '#a97064',
+      dark: '#ACBD9D',
       contrastText: '#000',
     },
     neutral: {
@@ -37,57 +37,57 @@ const theme = createTheme({
       fontSize: 12,
     },
     h1: {
-      fontFamily: 'kurale',
+      fontFamily: 'stroke',
       fontSize: '8vw',
-      '@media (min-width:600px)': {
+      '@media (min-width:800px)': {
         fontSize: '5rem',
       } 
     }, 
     h2: {
         fontFamily: 'tenor',
-        fontSize: '6vw',
-        '@media (min-width:600px)': {
-          fontSize: '3.5rem',
+        fontSize: '5vw',
+        '@media (min-width:800px)': {
+          fontSize: '2.5rem',
         } 
     }, 
     h3: {
       fontFamily: 'tenor',
-      fontSize: '5vw',
-      '@media (min-width:600px)': {
+      fontSize: '4vw',
+      '@media (min-width:800px)': {
         fontSize: '2rem',
       }
     }, 
     h4: {
-      fontFamily: 'quicksand',
+      fontFamily: 'Cormorant',
       fontSize: '5vw',
-      '@media (min-width:600px)': {
+      '@media (min-width:800px)': {
         fontSize: '2rem',
       } 
     }, 
     h5: {
-      fontFamily: 'quicksand',
+      fontFamily: 'Cormorant',
       fontSize: '4vw',
       // fontWeight: 'bold',
-      '@media (min-width:600px)': {
+      '@media (min-width:800px)': {
         fontSize: '1.5rem',
       },
     },
     body1: {
-      fontFamily: 'quicksand',
-      fontSize: '0.75rem',
+      fontFamily: 'Cormorant',
+      fontSize: '3vw',
       '@media (min-width:800px)': {
         fontSize: '1.25rem',
       } 
     },
     body2: {
-      fontFamily: 'quicksand',
+      fontFamily: 'Cormorant',
       fontSize: '1.75vw',
       '@media (min-width:800px)': {
         fontSize: '1rem',
       } 
     }, 
     button: {
-      fontFamily: 'quicksand',
+      fontFamily: 'Cormorant',
       fontSize: '2.5vw',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',
