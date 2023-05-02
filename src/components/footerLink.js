@@ -9,9 +9,8 @@ const footerLink = (text, link, icon)=> {
                 underline="none"
                 variant="body2"
                 color="secondary.main"
-                onClick={() => {
-                    console.info("I'm a button." + link);
-                }}
+                href={link}
+                target="_blank"
                 >
                 {text}
             </Link>

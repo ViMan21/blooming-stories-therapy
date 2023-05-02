@@ -69,26 +69,25 @@ body {
 .App-footer {
   margin-top: 10em;
   background-color: #ACBD9D;
-  display: grid;
 }
 
 .footer-contact {
   display: grid;
-  grid-template-columns: 1fr;
   justify-items: start;
   align-content: center;
   margin-left: 5%;
+  position: absolute;
+  left: 0px;
+  padding-top: 20px;
 }
 
 .footer-company {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: inline;
   justify-items: center;
-  align-content: center;
 }
 
 .footer-logo {
-  width: 40%;
+  width: 20%;
   max-width: 200px;
   min-width: 80px;
   height: auto;
@@ -96,11 +95,10 @@ body {
 }
 
 .footer-virtual{
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: end;
-  align-content: center;
   margin-right: 5%;
+  position: absolute;
+  right: 0px;
+  padding-top: 20px;
 }
 
 .footer-copyright{
@@ -113,6 +111,7 @@ body {
   display: flex;
   font-size: small;
   margin-top: 10px;
+  column-gap: 10px;
 }
 
 .Tab-button {
