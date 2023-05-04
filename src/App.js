@@ -4,7 +4,7 @@ import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import FaqPage from './pages/faq';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate, ScrollRestoration } from "react-router-dom";
 
 const theme = createTheme({
   status: {
@@ -100,12 +100,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/faq" element={<FaqPage />} />
-          <Route path="*" element={<Navigate to={"/"} />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/faq" element={<FaqPage />} />
+            <Route path="*" element={<Navigate to={"/"} />} />
+          </Routes>
       </div>
     </ThemeProvider>
   );
