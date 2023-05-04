@@ -4,7 +4,7 @@ import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import FaqPage from './pages/faq';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Route, Routes, Navigate, ScrollRestoration } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 const theme = createTheme({
   status: {
@@ -38,9 +38,9 @@ const theme = createTheme({
     },
     h1: {
       fontFamily: 'stroke',
-      fontSize: '8vw',
+      fontSize: '12vw',
       '@media (min-width:800px)': {
-        fontSize: '5rem',
+        fontSize: '8vw',
       } 
     }, 
     h2: {
@@ -52,9 +52,9 @@ const theme = createTheme({
     }, 
     h3: {
       fontFamily: 'tenor',
-      fontSize: '4vw',
+      fontSize: '3vw',
       '@media (min-width:800px)': {
-        fontSize: '2rem',
+        fontSize: '25px',
       }
     }, 
     h4: {

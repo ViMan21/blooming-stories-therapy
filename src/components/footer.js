@@ -12,7 +12,7 @@ const Footer = ()=> {
     return(
         <footer className="App-footer">
             <contact className="footer-contact">
-                <Typography variant="body2"  color="secondary.main">Get in Touch!</Typography>
+                <Typography variant="body1"  color="secondary.main">Get in Touch!</Typography>
                 {footerLink('info@bloomingstoriestherapy.com', 'mailto:info@bloomingstoriestherapy.com', <EmailOutlinedIcon  color="secondary" fontSize='inherit'/>)}
                 {footerLink('(289) 278-8792', 'tel:+12892788792', <LocalPhoneIcon  color="secondary" fontSize='inherit'/>)}
                 {footerLink('Book a Free Consultation', 'https://bloomingstoriestherapy.bookafy.com/', <CalendarMonthIcon  color="secondary" fontSize='inherit'/>)}
@@ -22,7 +22,7 @@ const Footer = ()=> {
                 <img className='footer-logo' src={logo} alt="logo" />
             </company>
             <virtual className="footer-virtual">
-                <Typography variant='h1' className='center' color="secondary.main">
+                <Typography variant='h2' className='center' color="secondary.main">
                     <ImportantDevicesIcon  color="secondary.main" fontSize='inherit'/>
                 </Typography>
                 <Typography  variant="body2"  color="secondary.main">
@@ -35,7 +35,7 @@ const Footer = ()=> {
                     Ontario
                 </Typography>
             </virtual>
-            <Typography className='footer-copyright'  variant="body2"  color="secondary.main" sx={{p: 2}}>
+            <Typography className='footer-copyright'  variant="body2"  color="secondary.main" sx={{pb: 2}}>
                     Copyright © 2022 Blooming Stories Therapy - All Rights Reserved
             </Typography>
         </footer>

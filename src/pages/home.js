@@ -49,7 +49,7 @@ const HomePage = ()=> {
                     Areas of Focus    
                 </Typography>
                 <cards className="cards">
-                    {InfoCard('Intergenerational Trauma', 'Trauma passed down from previous generations. This may appear in your life as symptoms of anxiety, depression, and stress.)', IT)}
+                    {InfoCard('Intergenerational Trauma', 'Trauma passed down from previous generations. This may appear in your life as symptoms of anxiety, depression, and stress.', IT)}
                     {InfoCard('Anxiety', ' Feelings of nervousness, panic, fear, and overthinking, when there is no real threat/concern.', Anxiety)}
                     {InfoCard('Depression', 'Constantly feeling helpless, irritable, having negative thoughts, and losing interest in pleasurable activities.', Depression)}
                     {InfoCard('Life Transitions', 'Normal changes that may impact your life in a significant way. These changes can result in feelings of confusion, overwhelmedness, and stress.', Transitions)}
