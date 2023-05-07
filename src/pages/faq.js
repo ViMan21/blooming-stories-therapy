@@ -3,11 +3,13 @@ import * as React from 'react';
 import Navigation from '../components/navigation'
 import AccordionCard from '../components/accordionCard'
 import Footer from '../components/footer';
+import Banner from '../components/banner';
 
 
 const FaqPage = ()=> {
     return(
         <>
+            {Banner('Currently Accepting New Clients')}
              <header className="App-header">
                 {Navigation()}
             </header>

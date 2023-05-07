@@ -6,7 +6,7 @@ import * as React from 'react';
 const Navigation = ()=> {
     return(
         <navigation >
-            <AppBar position="fixed">
+            <AppBar position="sticky">
                 <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
                         <Button variant="text" color="secondary" href="/">Home</Button>
                         <Button variant="text" color="secondary" href="/#/about">About</Button>

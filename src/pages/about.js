@@ -4,10 +4,12 @@ import * as React from 'react';
 import Navigation from '../components/navigation';
 import About from '../img/about.jpg';
 import Footer from '../components/footer';
+import Banner from '../components/banner';
 
 const AboutPage = ()=> {
     return(
         <>
+            {Banner('Currently Accepting New Clients')}
              <header className="App-header">
                 {Navigation()}
             </header>

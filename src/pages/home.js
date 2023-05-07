@@ -8,6 +8,7 @@ import InfoCard from '../components/infoCard';
 import StepCard from '../components/stepCard';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
+import Banner from '../components/banner';
 import step1 from '../img/step1.png';
 import step2 from '../img/step2.png';
 import step3 from '../img/step3.png';
@@ -23,11 +24,11 @@ import homeImage from '../img/homeImage.jpg';
 const HomePage = ()=> {
     return(
         <>
-            <header className="App-header">
+        {Banner('Currently Accepting New Clients')}
+            <header className="App-header">      
                 {Navigation()}
             </header>
             <body className="App-body">
-                
                 <img className='logo' src={logo} alt="logo" />
                 <Typography className="slogan" variant="h1" color="primary.contrastText">
                     Blooming Stories Therapy  
