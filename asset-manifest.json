@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.540a84a7.css",
-    "main.js": "/static/js/main.57ff533f.js",
+    "main.css": "/static/css/main.f64dc2ed.css",
+    "main.js": "/static/js/main.69e72205.js",
     "static/js/787.c9b13b0e.chunk.js": "/static/js/787.c9b13b0e.chunk.js",
     "static/media/about.jpg": "/static/media/about.897d905371f28b776364.jpg",
     "static/media/CormorantGaramond-Regular.ttf": "/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
@@ -20,12 +20,12 @@
     "static/media/step2.png": "/static/media/step2.c50c327a6c17a13708c4.png",
     "static/media/step3.png": "/static/media/step3.c64b4ffc16d94b914f96.png",
     "index.html": "/index.html",
-    "main.540a84a7.css.map": "/static/css/main.540a84a7.css.map",
-    "main.57ff533f.js.map": "/static/js/main.57ff533f.js.map",
+    "main.f64dc2ed.css.map": "/static/css/main.f64dc2ed.css.map",
+    "main.69e72205.js.map": "/static/js/main.69e72205.js.map",
     "787.c9b13b0e.chunk.js.map": "/static/js/787.c9b13b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.540a84a7.css",
-    "static/js/main.57ff533f.js"
+    "static/css/main.f64dc2ed.css",
+    "static/js/main.69e72205.js"
   ]
 }
