@@ -43,7 +43,7 @@ const HomePage = ()=> {
                         p: '5vw'
                     }}>
                     <Typography className="summary" variant="h4" color="secondary.main">
-                        Do you feel stuck? You may feel overwhelmed and confused about what’s going on right now. But the one thing you know is that you want this to change. You want to understand yourself better and get back on track for the life that you deserve. In therapy, you will be able to explore your past, work on the present, and allow your story to bloom for the future.
+                        Do you feel stuck? You may feel overwhelmed and confused about what’s going on right now. But the one thing you know is that you want this to change. You want to understand yourself better and get back on track for the life that you deserve. Blooming Stories Therapy aims to meet you where you are when it comes to your life and concerns by helping you explore your past, work on the present, and allow your story to bloom for the future.
                     </Typography>
                 </Box>
                 <Typography className="slogan" variant="h2" color="primary.contrastText" sx={{my: 3}}>

@@ -1,14 +1,14 @@
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
-import FilterVintageOutlinedIcon from '@mui/icons-material/FilterVintageOutlined';
+import FilterVintageTwoToneIcon from '@mui/icons-material/FilterVintageTwoTone';
 
 const Banner = (message)=> {
     return(
         <div class="banner">
-            <Typography variant="body1" color="primary.main" sx={{ fontWeight:700 }}>
-                <FilterVintageOutlinedIcon sx={{ verticalAlign:'sub' }}/>
+            <Typography variant="body2" color="primary.main" sx={{ fontWeight:700, fontSize:'1rem' }}>
+                <FilterVintageTwoToneIcon sx={{ verticalAlign:'bottom' }}/>
                 {message}
-                <FilterVintageOutlinedIcon sx={{ verticalAlign:'sub' }} />
+                <FilterVintageTwoToneIcon sx={{ verticalAlign:'bottom' }}/>
             </Typography>
         </div>
 )};
