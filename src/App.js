@@ -34,8 +34,12 @@ const theme = createTheme({
   },
   typography: {
     subtitle1: {
-      fontSize: 12,
-    },
+      fontFamily: 'Cormorant',
+      fontSize: '5vw',
+      '@media (min-width:800px)': {
+        fontSize: '2.5rem',
+      } 
+    }, 
     h1: {
       fontFamily: 'stroke',
       fontSize: '12vw',
@@ -54,7 +58,7 @@ const theme = createTheme({
       fontFamily: 'tenor',
       fontSize: '3vw',
       '@media (min-width:800px)': {
-        fontSize: '25px',
+        fontSize: '1.75rem',
       }
     }, 
     h4: {
@@ -66,7 +70,7 @@ const theme = createTheme({
     }, 
     h5: {
       fontFamily: 'Cormorant',
-      fontSize: '4vw',
+      fontSize: '3vw',
       // fontWeight: 'bold',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',

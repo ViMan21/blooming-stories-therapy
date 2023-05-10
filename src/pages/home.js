@@ -33,10 +33,25 @@ const HomePage = ()=> {
                 <Typography className="slogan" variant="h1" color="primary.contrastText">
                     Blooming Stories Therapy  
                 </Typography>
-                <Typography className="slogan" variant="h3" color="primary.contrastText"  sx={{my: 3}}>
+                {/* <Typography className="slogan" variant="h3" color="primary.contrastText"  sx={{my: 3}}>
                     Bloom into a Better You    
-                </Typography>
-                <img className='home-image' src={homeImage} alt="homeImage" />
+                </Typography> */}
+                <div className='greeting-box'>
+                    <img className='home-image' src={homeImage} alt="homeImage" />
+                    <Box className='greeting-text'
+                        sx={{
+                            backgroundColor: 'secondary.main',
+                            py: '5%'
+                        }}>
+                            {['Culturally', 'Sensitive Therapy', 'for Children of', 'Immigrants'].map((text)=>{
+                                return (
+                                    <Typography className="summary" lineHeight="1" variant="subtitle1" color="primary.main" sx={{ fontWeight: 'bold'}}>
+                                        {text}
+                                    </Typography>
+                                );
+                            })}
+                    </Box>
+                </div>
                 <Box className='summary-box' 
                     sx={{
                         backgroundColor: 'primary.main',
