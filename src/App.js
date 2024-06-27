@@ -56,7 +56,7 @@ const theme = createTheme({
     }, 
     h3: {
       fontFamily: 'tenor',
-      fontSize: '3vw',
+      fontSize: '4vw',
       '@media (min-width:800px)': {
         fontSize: '1.75rem',
       }
@@ -70,7 +70,7 @@ const theme = createTheme({
     }, 
     h5: {
       fontFamily: 'Cormorant',
-      fontSize: '3vw',
+      fontSize: '4vw',
       // fontWeight: 'bold',
       '@media (min-width:800px)': {
         fontSize: '1.5rem',
