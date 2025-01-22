@@ -43,9 +43,9 @@ const HomePage = ()=> {
                             backgroundColor: 'secondary.main',
                             py: '5%'
                         }}>
-                            {['Culturally', 'Sensitive Therapy', 'for Children of', 'Immigrants'].map((text)=>{
+                            {['Culturally Sensitive', 'Therapy for', 'Adult Children', 'of Immigrants'].map((text)=>{
                                 return (
-                                    <Typography className="summary" lineHeight="1" variant="subtitle1" color="primary.main" sx={{ fontWeight: 'bold'}}>
+                                    <Typography className="summary" lineHeight="1.1 " variant="subtitle1" color="primary.main" sx={{ fontWeight: 'bold'}}>
                                         {text}
                                     </Typography>
                                 );
